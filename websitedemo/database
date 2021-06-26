@@ -1,0 +1,13 @@
+
+
+
+CREATE TABLE mytab ( id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(20), address TEXT );
+
+INSERT INTO mytab (name, address) VALUES ('priyanka','solapur' );
+
+
+select * from mytab;
+
+delete from mytab where id=2;
+
+delete table mytab;
